@@ -1,0 +1,17 @@
+.form {
+    background-color: #bcbcbc;
+    padding: 20pt;
+    border-radius: 8pt;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: fit-content;
+    text-align: center;
+}
+
+#form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    }

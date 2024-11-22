@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyhledávání obrázků</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Google Search</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Vyhledávání</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./advanced.html">Pokročilé Vyhledávání</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./images.html">Obrázky</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          <div id="form-container">
+              <form class="form" action="https://www.google.com/advanced_search?as_q=C%C3%A9%C4%8Dka&as_epq=&as_oq=&as_eq=" method="get">
+                  <input type="text" name="q" class="search-box" placeholder="Rozšířené vyhledávání...">
+                  <button type="submit" class="search-button">Hledat</button>
+                </form>
+          </div>
+      </body>
+      </html>
+      
+</body>
+</html>
